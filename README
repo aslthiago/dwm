@@ -46,3 +46,21 @@ Configuration
 -------------
 The configuration of dwm is done by creating a custom config.h
 and (re)compiling the source code.
+
+
+Patching
+--------
+Replace the filename with yours:
+
+    patch -si patch.diff
+
+
+Upstream
+--------
+Add the reference to the official repository:
+
+    git remote add upstream git://git.suckless.org/dwm
+
+And then synchronize the updates locally:
+
+    git pull upstream/master
