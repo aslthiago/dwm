@@ -2,6 +2,6 @@
 Encoding=UTF-8
 Name=dwm
 Comment=Dynamic Window Manager
-Exec=dwm
+Exec=/bin/bash /home/thiago/.config/X11/xinitrc
 Icon=dwm
 Type=XSession
